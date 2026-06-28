@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CLMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdminId" />
+    </Key>
+    <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonId" Type="Int32" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Person" Relationship="Self.FK__Admin__PersonId__3C69FB99" FromRole="Admin" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Computer">
+    <Key>
+      <PropertyRef Name="ComputerId" />
+    </Key>
+    <Property Name="ComputerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ComputerName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ComputerCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LaboratoryId" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Laboratory" Relationship="Self.FK__Computer__Labora__44FF419A" FromRole="Computer" ToRole="Laboratory" />
+    <NavigationProperty Name="Reservation" Relationship="Self.FK__Reservati__Compu__4D94879B" FromRole="Computer" ToRole="Reservation" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="GenderId" />
+    </Key>
+    <Property Name="GenderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GenderName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Person" Relationship="Self.FK__Person__GenderId__398D8EEE" FromRole="Gender" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Laboratory">
+    <Key>
+      <PropertyRef Name="LaboratoryId" />
+    </Key>
+    <Property Name="LaboratoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LaboratoryName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="LaboratoryCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Computer" Relationship="Self.FK__Computer__Labora__44FF419A" FromRole="Laboratory" ToRole="Computer" />
+    <NavigationProperty Name="Reservation" Relationship="Self.FK__Reservati__Labor__4CA06362" FromRole="Laboratory" ToRole="Reservation" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Lastname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Firstname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Middlename" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Birthdate" Type="DateTime" Precision="3" />
+    <Property Name="GenderId" Type="Int32" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Admin" Relationship="Self.FK__Admin__PersonId__3C69FB99" FromRole="Person" ToRole="Admin" />
+    <NavigationProperty Name="Gender" Relationship="Self.FK__Person__GenderId__398D8EEE" FromRole="Person" ToRole="Gender" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Student__PersonI__403A8C7D" FromRole="Person" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Reservation">
+    <Key>
+      <PropertyRef Name="ReservationId" />
+    </Key>
+    <Property Name="ReservationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="LaboratoryId" Type="Int32" />
+    <Property Name="ComputerId" Type="Int32" />
+    <Property Name="TermId" Type="Int32" />
+    <Property Name="StatusTypeId" Type="Int32" />
+    <Property Name="DateStart" Type="DateTime" Precision="3" />
+    <Property Name="DateEnd" Type="DateTime" Precision="3" />
+    <Property Name="TimeConsumed" Type="Time" Precision="7" />
+    <NavigationProperty Name="Computer" Relationship="Self.FK__Reservati__Compu__4D94879B" FromRole="Reservation" ToRole="Computer" />
+    <NavigationProperty Name="Laboratory" Relationship="Self.FK__Reservati__Labor__4CA06362" FromRole="Reservation" ToRole="Laboratory" />
+    <NavigationProperty Name="StatusType" Relationship="Self.FK__Reservati__Statu__4F7CD00D" FromRole="Reservation" ToRole="StatusType" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Reservati__Stude__4BAC3F29" FromRole="Reservation" ToRole="Student" />
+    <NavigationProperty Name="Term" Relationship="Self.FK__Reservati__TermI__4E88ABD4" FromRole="Reservation" ToRole="Term" />
+  </EntityType>
+  <EntityType Name="StatusType">
+    <Key>
+      <PropertyRef Name="StatusTypeId" />
+    </Key>
+    <Property Name="StatusTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Reservation" Relationship="Self.FK__Reservati__Statu__4F7CD00D" FromRole="StatusType" ToRole="Reservation" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonId" Type="Int32" />
+    <Property Name="StudentNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Person" Relationship="Self.FK__Student__PersonI__403A8C7D" FromRole="Student" ToRole="Person" />
+    <NavigationProperty Name="Reservation" Relationship="Self.FK__Reservati__Stude__4BAC3F29" FromRole="Student" ToRole="Reservation" />
+  </EntityType>
+  <EntityType Name="Term">
+    <Key>
+      <PropertyRef Name="TermId" />
+    </Key>
+    <Property Name="TermId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TermName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DateFrom" Type="DateTime" Precision="3" />
+    <Property Name="DateTo" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+    <NavigationProperty Name="Reservation" Relationship="Self.FK__Reservati__TermI__4E88ABD4" FromRole="Term" ToRole="Reservation" />
+  </EntityType>
+  <Association Name="FK__Admin__PersonId__3C69FB99">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Admin" Type="Self.Admin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="Admin">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Computer__Labora__44FF419A">
+    <End Role="Laboratory" Type="Self.Laboratory" Multiplicity="0..1" />
+    <End Role="Computer" Type="Self.Computer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Laboratory">
+        <PropertyRef Name="LaboratoryId" />
+      </Principal>
+      <Dependent Role="Computer">
+        <PropertyRef Name="LaboratoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservati__Compu__4D94879B">
+    <End Role="Computer" Type="Self.Computer" Multiplicity="0..1" />
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Computer">
+        <PropertyRef Name="ComputerId" />
+      </Principal>
+      <Dependent Role="Reservation">
+        <PropertyRef Name="ComputerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Person__GenderId__398D8EEE">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="0..1" />
+    <End Role="Person" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="GenderId" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="GenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservati__Labor__4CA06362">
+    <End Role="Laboratory" Type="Self.Laboratory" Multiplicity="0..1" />
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Laboratory">
+        <PropertyRef Name="LaboratoryId" />
+      </Principal>
+      <Dependent Role="Reservation">
+        <PropertyRef Name="LaboratoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__PersonI__403A8C7D">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservati__Statu__4F7CD00D">
+    <End Role="StatusType" Type="Self.StatusType" Multiplicity="0..1" />
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusType">
+        <PropertyRef Name="StatusTypeId" />
+      </Principal>
+      <Dependent Role="Reservation">
+        <PropertyRef Name="StatusTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservati__Stude__4BAC3F29">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Reservation">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservati__TermI__4E88ABD4">
+    <End Role="Term" Type="Self.Term" Multiplicity="0..1" />
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Term">
+        <PropertyRef Name="TermId" />
+      </Principal>
+      <Dependent Role="Reservation">
+        <PropertyRef Name="TermId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CLMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admin" EntityType="Self.Admin" />
+    <EntitySet Name="Computer" EntityType="Self.Computer" />
+    <EntitySet Name="Gender" EntityType="Self.Gender" />
+    <EntitySet Name="Laboratory" EntityType="Self.Laboratory" />
+    <EntitySet Name="Person" EntityType="Self.Person" />
+    <EntitySet Name="Reservation" EntityType="Self.Reservation" />
+    <EntitySet Name="StatusType" EntityType="Self.StatusType" />
+    <EntitySet Name="Student" EntityType="Self.Student" />
+    <EntitySet Name="Term" EntityType="Self.Term" />
+    <AssociationSet Name="FK__Admin__PersonId__3C69FB99" Association="Self.FK__Admin__PersonId__3C69FB99">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Admin" EntitySet="Admin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Computer__Labora__44FF419A" Association="Self.FK__Computer__Labora__44FF419A">
+      <End Role="Laboratory" EntitySet="Laboratory" />
+      <End Role="Computer" EntitySet="Computer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservati__Compu__4D94879B" Association="Self.FK__Reservati__Compu__4D94879B">
+      <End Role="Computer" EntitySet="Computer" />
+      <End Role="Reservation" EntitySet="Reservation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Person__GenderId__398D8EEE" Association="Self.FK__Person__GenderId__398D8EEE">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="Person" EntitySet="Person" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservati__Labor__4CA06362" Association="Self.FK__Reservati__Labor__4CA06362">
+      <End Role="Laboratory" EntitySet="Laboratory" />
+      <End Role="Reservation" EntitySet="Reservation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__PersonI__403A8C7D" Association="Self.FK__Student__PersonI__403A8C7D">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservati__Statu__4F7CD00D" Association="Self.FK__Reservati__Statu__4F7CD00D">
+      <End Role="StatusType" EntitySet="StatusType" />
+      <End Role="Reservation" EntitySet="Reservation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservati__Stude__4BAC3F29" Association="Self.FK__Reservati__Stude__4BAC3F29">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Reservation" EntitySet="Reservation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservati__TermI__4E88ABD4" Association="Self.FK__Reservati__TermI__4E88ABD4">
+      <End Role="Term" EntitySet="Term" />
+      <End Role="Reservation" EntitySet="Reservation" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(CLMSModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(CLMSModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

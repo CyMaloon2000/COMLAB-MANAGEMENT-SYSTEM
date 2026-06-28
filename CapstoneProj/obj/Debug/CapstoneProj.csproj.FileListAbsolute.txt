@@ -1,0 +1,49 @@
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\CapstoneProj.exe.config
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\CapstoneProj.exe
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\CapstoneProj.pdb
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\EntityFramework.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\MetroFramework.Design.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\MetroFramework.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\EntityFramework.xml
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.csproj.AssemblyReference.cache
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.Dashboard.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Index.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Properties.Resources.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.Login.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageAdmin.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageLaboratory.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageStudent.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageTerm.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.csproj.GenerateResource.cache
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.csproj.CoreCompileInputs.cache
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.csproj.CopyComplete
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.exe
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.pdb
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageComputer.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageSitIn.resources
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\ExcelDataReader.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\ExcelDataReader.pdb
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\ExcelDataReader.xml
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\Z.Dapper.Plus.dll
+C:\Users\KANASHI\Source\Repos\CapstoneProj\CapstoneProj\bin\Debug\Z.Dapper.Plus.xml
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.csproj.AssemblyReference.cache
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.Dashboard.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Index.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Properties.Resources.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.Login.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageAdmin.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageComputer.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageLaboratory.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageSitIn.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageStudent.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.Views.ManageTerm.resources
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.csproj.GenerateResource.cache
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.csproj.CoreCompileInputs.cache
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.exe
+E:\EDUCATIONAL\RANDOM PROJECTS\PROJECT 2024\CapstoneProj\CapstoneProj\obj\Debug\CapstoneProj.pdb

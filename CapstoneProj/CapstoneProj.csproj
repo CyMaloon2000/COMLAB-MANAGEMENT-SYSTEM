@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{215A9C38-C278-4266-B16D-EB7561313D66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapstoneProj</RootNamespace>
+    <AssemblyName>CapstoneProj</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Z.Dapper.Plus, Version=6.0.5.0, Culture=neutral, PublicKeyToken=59b66d028979105b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.Dapper.Plus.6.0.5\lib\net45\Z.Dapper.Plus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\dbEntity\Admin.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\CLMSdb.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLMSdb.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\CLMSdb.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\CLMSdb.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLMSdb.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\Computer.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\Gender.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\Laboratory.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\Person.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\ProgramCourse.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\Reservation.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\sp_helpdiagrams_Result.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\StatusType.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\Student.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\sysdiagrams.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\dbEntity\Term.cs">
+      <DependentUpon>CLMSdb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EntitySorter.cs" />
+    <Compile Include="Model\GenericRepository.cs" />
+    <Compile Include="Model\UnitOfWork.cs" />
+    <Compile Include="Views\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ManageAdmin.Designer.cs">
+      <DependentUpon>ManageAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageComputer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ManageComputer.Designer.cs">
+      <DependentUpon>ManageComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageLaboratory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ManageLaboratory.Designer.cs">
+      <DependentUpon>ManageLaboratory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageSitIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ManageSitIn.Designer.cs">
+      <DependentUpon>ManageSitIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ManageStudent.Designer.cs">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageTerm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ManageTerm.Designer.cs">
+      <DependentUpon>ManageTerm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManageAdmin.resx">
+      <DependentUpon>ManageAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManageComputer.resx">
+      <DependentUpon>ManageComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManageLaboratory.resx">
+      <DependentUpon>ManageLaboratory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManageSitIn.resx">
+      <DependentUpon>ManageSitIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManageStudent.resx">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ManageTerm.resx">
+      <DependentUpon>ManageTerm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="Model\dbEntity\CLMSdb.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CLMSdb.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model\dbEntity\CLMSdb.edmx.diagram">
+      <DependentUpon>CLMSdb.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Model\dbEntity\CLMSdb.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CLMSdb.edmx</DependentUpon>
+      <LastGenOutput>CLMSdb.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\dbEntity\CLMSdb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CLMSdb.edmx</DependentUpon>
+      <LastGenOutput>CLMSdb.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

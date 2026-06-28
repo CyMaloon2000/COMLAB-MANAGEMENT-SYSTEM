@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|e:\\educational\\random projects\\project 2024\\capstoneproj\\capstoneproj\\views\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|e:\\educational\\random projects\\project 2024\\capstoneproj\\capstoneproj\\views\\managesitin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managesitin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\managesitin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managesitin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\managecomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managecomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\managecomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managecomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\manageadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\manageadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\managestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\managestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\model\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\model\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\model\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\model\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\managelaboratory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managelaboratory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\capstoneproj\\views\\managelaboratory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{215A9C38-C278-4266-B16D-EB7561313D66}|CapstoneProj\\CapstoneProj.csproj|solutionrelative:capstoneproj\\views\\managelaboratory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cs [Design]",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\Index.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\Index.cs",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\Index.cs [Design]",
+              "RelativeToolTip": "CapstoneProj\\Views\\Index.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:52:33.557Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageSitIn.cs",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageSitIn.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageSitIn.cs",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageSitIn.cs",
+              "RelativeToolTip": "CapstoneProj\\Views\\ManageSitIn.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAD4vyABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:30:24.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageSitIn.cs [Design]",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageSitIn.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageSitIn.cs",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageSitIn.cs [Design]",
+              "RelativeToolTip": "CapstoneProj\\Views\\ManageSitIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:30:24.73Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\Login.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageComputer.cs [Design]",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageComputer.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageComputer.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\ManageComputer.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageStudent.cs [Design]",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageStudent.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageStudent.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\ManageStudent.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageComputer.cs",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageComputer.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageComputer.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\ManageComputer.cs*",
+              "ViewState": "AQIAAGsAAAAAAAAAAADwv3YAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageAdmin.cs [Design]",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageAdmin.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageAdmin.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\ManageAdmin.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageStudent.cs",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageStudent.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageStudent.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\ManageStudent.cs*",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Model\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Model\\GenericRepository.cs",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Model\\GenericRepository.cs",
+              "RelativeToolTip": "CapstoneProj\\Model\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:30:24.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManageLaboratory.cs",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageLaboratory.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageLaboratory.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\ManageLaboratory.cs*",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwFIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\packages.config",
+              "RelativeDocumentMoniker": "CapstoneProj\\packages.config",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\packages.config",
+              "RelativeToolTip": "CapstoneProj\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-25T10:30:24.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\App.config",
+              "RelativeDocumentMoniker": "CapstoneProj\\App.config",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\App.config",
+              "RelativeToolTip": "CapstoneProj\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAD+AQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-25T10:30:24.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Model\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Model\\UnitOfWork.cs",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Model\\UnitOfWork.cs",
+              "RelativeToolTip": "CapstoneProj\\Model\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:30:24.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\Login.cs",
+              "ToolTip": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\Login.cs",
+              "RelativeToolTip": "CapstoneProj\\Views\\Login.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAApwC8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageLaboratory.cs [Design]",
+              "DocumentMoniker": "E:\\EDUCATIONAL\\RANDOM PROJECTS\\PROJECT 2024\\CapstoneProj\\CapstoneProj\\Views\\ManageLaboratory.cs",
+              "RelativeDocumentMoniker": "CapstoneProj\\Views\\ManageLaboratory.cs",
+              "ToolTip": "C:\\Users\\KANASHI\\Source\\Repos\\CapstoneProj\\CapstoneProj\\Views\\ManageLaboratory.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-25T10:30:24.744Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
